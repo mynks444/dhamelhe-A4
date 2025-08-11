@@ -1,0 +1,10 @@
+<app-header [assignmentTitle]="profile.assignmentTitle" [name]="profile.name"></app-header>
+
+<main class="main-wrap">
+  <div class="container">
+    <app-main [breakfast]="breakfast" [lunch]="lunch" [dinner]="dinner"></app-main>
+  </div>
+</main>
+
+<app-footer [name]="profile.name" [studentNumber]="profile.studentNumber"
+            [loginName]="profile.loginName" [campus]="profile.campus"></app-footer>

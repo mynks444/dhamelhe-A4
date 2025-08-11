@@ -1,0 +1,59 @@
+::ng-deep .mat-mdc-tab-header {
+  background-color: white;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+::ng-deep .mdc-tab__text-label {
+  font-weight: 500;
+  font-size: 15px;
+  color: #666;
+}
+
+::ng-deep .mdc-tab--active .mdc-tab__text-label {
+  color: #1976d2;
+}
+
+::ng-deep .mdc-tab-indicator--active .mdc-tab-indicator__content--underline {
+  border-color: #1976d2;
+  border-width: 3px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  padding: 20px;
+}
+
+mat-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  border: 1px solid #f0f0f0;
+  padding: 12px;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+mat-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+}
+
+mat-card-title {
+  font-size: 16px;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 6px;
+}
+
+mat-card-subtitle {
+  font-size: 14px;
+  font-weight: 500;
+  color: #1976d2;
+  margin-bottom: 4px;
+}
+
+mat-card-content {
+  font-size: 13px;
+  color: #777;
+}

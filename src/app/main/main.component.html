@@ -1,0 +1,31 @@
+<mat-tab-group>
+  <mat-tab label="Breakfast">
+    <div class="cards">
+      <mat-card *ngFor="let item of breakfast">
+        <mat-card-title>{{ item.name }}</mat-card-title>
+        <mat-card-subtitle>${{ item.price | number:'1.2-2' }}</mat-card-subtitle>
+        <mat-card-content>{{ item.calories }} cal</mat-card-content>
+      </mat-card>
+    </div>
+  </mat-tab>
+
+  <mat-tab label="Lunch">
+    <div class="cards">
+      <mat-card *ngFor="let item of lunch">
+        <mat-card-title>{{ item.name }}</mat-card-title>
+        <mat-card-subtitle>${{ item.price | number:'1.2-2' }}</mat-card-subtitle>
+        <mat-card-content>{{ item.calories }} cal</mat-card-content>
+      </mat-card>
+    </div>
+  </mat-tab>
+
+  <mat-tab label="Dinner">
+    <div class="cards">
+      <mat-card *ngFor="let item of dinner">
+        <mat-card-title>{{ item.name }}</mat-card-title>
+        <mat-card-subtitle>${{ item.price | number:'1.2-2' }}</mat-card-subtitle>
+        <mat-card-content>{{ item.calories }} cal</mat-card-content>
+      </mat-card>
+    </div>
+  </mat-tab>
+</mat-tab-group>

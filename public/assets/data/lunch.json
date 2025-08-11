@@ -1,0 +1,5 @@
+[
+  { "name": "Grilled Chicken Wrap", "price": 8.49, "calories": 520 },
+  { "name": "Veggie Bowl", "price": 7.99, "calories": 450 },
+  { "name": "Tomato Basil Soup", "price": 4.49, "calories": 190 }
+]

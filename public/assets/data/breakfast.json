@@ -1,0 +1,5 @@
+[
+  { "name": "Avocado Toast", "price": 6.99, "calories": 320 },
+  { "name": "Greek Yogurt Bowl", "price": 5.49, "calories": 210 },
+  { "name": "Oatmeal & Berries", "price": 4.99, "calories": 280 }
+]

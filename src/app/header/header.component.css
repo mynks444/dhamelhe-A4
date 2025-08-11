@@ -1,0 +1,4 @@
+mat-toolbar{position:sticky;top:0;z-index:20;height:58px;padding:0 14px;border-bottom:1px solid var(--line)}
+.title{font-weight:800;letter-spacing:.2px}
+.spacer{flex:1 1 auto}
+.name{color:var(--muted);font-weight:600}
